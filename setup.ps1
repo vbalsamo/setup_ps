@@ -64,4 +64,7 @@ Function Install-WinGet {
 
 Install-WinGet
 
-winget install -e --id Zoom.Zoom
+winget install -e --id Google.Chrome
+winget install -e --id Adobe.Acrobat.Reader.64-bit
+winget install -e --id TeamViewer.TeamViewer
+winget install -e --id DucFabulous.UltraViewer
