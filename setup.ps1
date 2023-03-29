@@ -66,3 +66,17 @@ Invoke-WebRequest -Uri https://www.nuget.org/api/v2/package/Microsoft.UI.Xaml/2.
 Expand-Archive .\microsoft.ui.xaml.2.7.3.zip
 Add-AppxPackage .\microsoft.ui.xaml.2.7.3\tools\AppX\x64\Release\Microsoft.UI.Xaml.2.7.appx
 Install-WinGet
+
+echo Instalando Google Chrome
+winget install -e --id Google.Chrome
+echo Instalando Acrobat Reader
+winget install -e --id Adobe.Acrobat.Reader.64-bit
+echo Instalando TeamViewer
+winget install -e --id TeamViewer.TeamViewer
+echo Instalando UltraViewer
+winget install -e --id DucFabulous.UltraViewer
+echo Instalando WinRar
+winget install -e --id RARLab.WinRAR
+echo Instalando Microsoft Teams
+winget install --id=Microsoft.Teams  -e
+
