@@ -68,14 +68,14 @@ Add-AppxPackage .\microsoft.ui.xaml.2.7.3\tools\AppX\x64\Release\Microsoft.UI.Xa
 Install-WinGet
 
 echo Instalando Google Chrome
-winget install -e --id Google.Chrome
+winget install -e --accept-package-agreements --accept-source-agreements --id Google.Chrome
 echo Instalando Acrobat Reader
-winget install -e --id Adobe.Acrobat.Reader.64-bit
+winget install -e --accept-package-agreements --accept-source-agreements --id Adobe.Acrobat.Reader.64-bit
 echo Instalando TeamViewer
-winget install -e --id TeamViewer.TeamViewer
+winget install -e --accept-package-agreements --accept-source-agreements --id TeamViewer.TeamViewer
 echo Instalando UltraViewer
-winget install -e --id DucFabulous.UltraViewer
+winget install -e --accept-package-agreements --accept-source-agreements --id DucFabulous.UltraViewer
 echo Instalando WinRar
-winget install -e --id RARLab.WinRAR
+winget install -e --accept-package-agreements --accept-source-agreements --id RARLab.WinRAR
 echo Instalando Microsoft Teams
-winget install --id=Microsoft.Teams  -e
+winget install  --accept-package-agreements --accept-source-agreements --id=Microsoft.Teams  -e
