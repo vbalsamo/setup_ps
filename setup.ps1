@@ -79,4 +79,3 @@ echo Instalando WinRar
 winget install -e --id RARLab.WinRAR
 echo Instalando Microsoft Teams
 winget install --id=Microsoft.Teams  -e
-
